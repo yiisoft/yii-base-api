@@ -6,10 +6,9 @@
     <br>
 </p>
 
-This package is [Yii Framework] application best for rapidly creating projects.
+This package is [Yii Framework] REST API application best for rapidly creating projects.
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
+The template includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
 
 [Yii Framework]: http://www.yiiframework.com/
