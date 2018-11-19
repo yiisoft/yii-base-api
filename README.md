@@ -2,7 +2,7 @@
     <a href="http://www.yiiframework.com/" target="_blank">
         <img src="https://www.yiiframework.com/files/logo/yii.png" width="400" alt="Yii Framework" />
     </a>
-    <h1 align="center">Yii Framework Application</h1>
+    <h1 align="center">Yii Framework REST API Application</h1>
     <br>
 </p>
 
