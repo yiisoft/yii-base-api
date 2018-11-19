@@ -3,7 +3,6 @@
 return [
     'app' => [
         'basePath' => dirname(__DIR__) . '/src',
-        'controllerNamespace' => \yii\app\commands::class,
         /*
         'controllerMap' => [
             'fixture' => [ // Fixture generation command line.
@@ -12,7 +11,6 @@ return [
         ],
         */
     ],
-
     'logger' => [
         '__construct()' => [
             'targets' => [
@@ -23,16 +21,12 @@ return [
             ],
         ],
     ],
-
     'cache' => [
         '__class' => yii\cache\Cache::class,
         'handler' => [
             '__class' => yii\cache\FileCache::class,
             'keyPrefix' => 'my-project',
         ],
-    ],
-    'mailer' => [
-        '__class' => yii\swiftmailer\Mailer::class,
     ],
     'db' => array_filter([
         '__class' => yii\db\Connection::class,
@@ -44,7 +38,7 @@ return [
 
 //    'translator' => [
 //        'translations' => [
-//            'yii-base-web' => [
+//            'yii-base-api' => [
 //                '__class' => yii\i18n\PhpMessageSource::class,
 //                'sourceLanguage' => 'en-US',
 //                'basePath' => '@yii/app/messages',
