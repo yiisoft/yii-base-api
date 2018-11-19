@@ -1,0 +1,46 @@
+{
+    "name": "yiisoft/yii-base-api",
+    "type": "library",
+    "description": "Yii Framework REST API Application Base",
+    "keywords": ["yii", "framework", "application", "rest", "api"],
+    "homepage": "https://github.com/yiisoft/yii-base-api",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/yiisoft/yii-base-api",
+        "issues": "https://github.com/yiisoft/yii-base-api/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii-rest": "^3.0@dev",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/cache": "^3.0@dev",
+        "yiisoft/active-record": "^3.0@dev",
+        "vlucas/phpdotenv": "^2.5",
+        "hiqdev/composer-config-plugin": "^1.0@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        },
+        "config-plugin": {
+            "params": "config/params.php",
+            "common": "config/common.php",
+            "web": "config/web.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {"yii\\app\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"yii\\app\\tests\\": "tests"}
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
