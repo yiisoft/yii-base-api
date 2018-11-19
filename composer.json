@@ -1,8 +1,8 @@
 {
     "name": "yiisoft/yii-base-api",
     "type": "library",
-    "description": "Yii Framework Web Application Base",
-    "keywords": ["yii", "framework", "application"],
+    "description": "Yii Framework REST API Application Base",
+    "keywords": ["yii", "framework", "application", "rest", "api"],
     "homepage": "https://github.com/yiisoft/yii-base-api",
     "license": "BSD-3-Clause",
     "support": {
@@ -12,16 +12,6 @@
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii"
     },
-    "authors": [
-        {
-            "name": "Alexander Makarov",
-            "email": "sam@rmcreative.ru"
-        },
-        {
-            "name": "Paul Klimov",
-            "email": "klimov.paul@gmail.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
