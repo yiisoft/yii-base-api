@@ -17,5 +17,4 @@ return [
         'enablePrettyUrl' => true,
         'showScriptName' => false,
     ],
-    'session' => false,
 ];
