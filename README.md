@@ -13,9 +13,9 @@ features to your application.
 
 [Yii Framework]: http://www.yiiframework.com/
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii-app.svg)](https://packagist.org/packages/yiisoft/yii-app)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii-app.svg)](https://packagist.org/packages/yiisoft/yii-app)
-[![Build Status](https://travis-ci.org/yiisoft/yii-app.svg?branch=master)](https://travis-ci.org/yiisoft/yii-app)
+[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii-base-api.svg)](https://packagist.org/packages/yiisoft/yii-base-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii-base-api.svg)](https://packagist.org/packages/yiisoft/yii-base-api)
+[![Build Status](https://travis-ci.com/yiisoft/yii-base-api.svg?branch=master)](https://travis-ci.com/yiisoft/yii-base-api)
 
 DIRECTORY STRUCTURE
 -------------------
