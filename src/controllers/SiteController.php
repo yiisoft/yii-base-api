@@ -6,7 +6,6 @@ use yii\rest\Controller;
 
 class SiteController extends Controller
 {
-
     /**
      * Displays homepage.
      *

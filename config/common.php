@@ -2,7 +2,7 @@
 
 return [
     'app' => [
-        'basePath' => dirname(__DIR__) . '/src',
+        'basePath' => dirname(__DIR__).'/src',
         /*
         'controllerMap' => [
             'fixture' => [ // Fixture generation command line.
@@ -16,7 +16,7 @@ return [
             'targets' => [
                 [
                     '__class' => Yii\Log\FileTarget::class,
-                    'levels' => ['error', 'warning'],
+                    'levels'  => ['error', 'warning'],
                 ],
             ],
         ],
@@ -24,15 +24,15 @@ return [
     'cache' => [
         '__class' => yii\cache\Cache::class,
         'handler' => [
-            '__class' => yii\cache\FileCache::class,
+            '__class'   => yii\cache\FileCache::class,
             'keyPrefix' => 'my-project',
         ],
     ],
     'db' => array_filter([
-        '__class' => yii\db\Connection::class,
-        'dsn' => $params['db.dsn'],
-        'username' => $params['db.username'],
-        'password' => $params['db.password'],
+        '__class'           => yii\db\Connection::class,
+        'dsn'               => $params['db.dsn'],
+        'username'          => $params['db.username'],
+        'password'          => $params['db.password'],
         'enableSchemaCache' => defined('YII_ENV') && YII_ENV !== 'dev',
     ]),
 
