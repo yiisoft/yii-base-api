@@ -2,14 +2,14 @@
 
 namespace yii\app\controllers;
 
-use Yiisoft\Rest\Controller;
+use Yiisoft\Yii\Rest\Controller;
 
 class SiteController extends Controller
 {
     /**
      * Displays homepage.
      *
-     * @return string
+     * @return strings
      */
     public function actionIndex()
     {
