@@ -2,7 +2,7 @@
 
 namespace yii\app\models;
 
-use yii\activerecord\ActiveRecord;
+use Yiisoft\ActiveRecord\ActiveRecord;
 use yii\behaviors\TimestampBehavior;
 use yii\exceptions\NotSupportedException;
 use yii\helpers\Yii;
