@@ -2,11 +2,11 @@
 
 namespace yii\app\models;
 
-use Yiisoft\ActiveRecord\ActiveRecord;
 use yii\behaviors\TimestampBehavior;
 use yii\exceptions\NotSupportedException;
 use yii\helpers\Yii;
 use yii\web\IdentityInterface;
+use Yiisoft\ActiveRecord\ActiveRecord;
 
 /**
  * User model.
