@@ -23,15 +23,10 @@ DIRECTORY STRUCTURE
 ```
 bin/
 config/             contains application configurations
-public/             contains the entry script for a web server
 runtime/            contains files generated during runtime
 src/
-  assets/             contains assets definition
-  commands/           contains console commands (controllers)
-  controllers/        contains Web controller classes
-  mail/               contains view files for e-mails
+  controllers/        contains Api controller classes
   models/             contains model classes
-  views/              contains view files for the Web application
 tests/              contains various tests for the basic application
 vendor/             contains dependent 3rd-party packages
 .env
@@ -43,7 +38,7 @@ REQUIREMENTS
 ------------
  
 
-The minimum requirement by this project template that your Web server supports PHP 7.1.
+The minimum requirement by this project template that your Web server supports PHP 7.2.
 
 
 INSTALLATION

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii\app\models;
+namespace Yiisoft\Yii\Base\Api\Models;
 
 use yii\behaviors\TimestampBehavior;
 use yii\exceptions\NotSupportedException;

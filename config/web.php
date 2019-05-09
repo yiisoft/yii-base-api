@@ -2,10 +2,10 @@
 
 return [
     'app' => [
-        'controllerNamespace' => yii\app\controllers::class,
+        'controllerNamespace' =>  Yiisoft\Yii\Base\Api\Controllers::class,
     ],
     'user' => [
-        'identityClass'   => yii\app\models\User::class, // User must implement the IdentityInterface
+        'identityClass'   =>  Yiisoft\Yii\Base\Api\Models\User::class, // User must implement the IdentityInterface
         'enableAutoLogin' => false,
         'enableSession'   => false,
         'loginUrl'        => null,
