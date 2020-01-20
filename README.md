@@ -38,7 +38,7 @@ REQUIREMENTS
 ------------
  
 
-The minimum requirement by this project template that your Web server supports PHP 7.2.
+The minimum requirement by this project template that your Web server supports PHP 7.4.
 
 
 INSTALLATION
