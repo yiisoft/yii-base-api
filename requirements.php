@@ -16,8 +16,8 @@
 
 if (!isset($frameworkPath)) {
     $searchPaths = [
-        dirname(__FILE__).'/vendor/yiisoft/yii2',
-        dirname(__FILE__).'/../vendor/yiisoft/yii2',
+        dirname(__FILE__) . '/vendor/yiisoft/yii2',
+        dirname(__FILE__) . '/../vendor/yiisoft/yii2',
     ];
     foreach ($searchPaths as $path) {
         if (is_dir($path)) {
@@ -29,9 +29,9 @@ if (!isset($frameworkPath)) {
 
 if (!isset($frameworkPath) || !is_dir($frameworkPath)) {
     $message = "<h1>Error</h1>\n\n"
-        ."<p><strong>The path to yii framework seems to be incorrect.</strong></p>\n"
-        .'<p>You need to install Yii framework via composer or adjust the framework path in file <abbr title="'.__FILE__.'">'.basename(__FILE__)."</abbr>.</p>\n"
-        .'<p>Please refer to the <abbr title="'.dirname(__FILE__)."/README.md\">README</abbr> on how to install Yii.</p>\n";
+        . "<p><strong>The path to yii framework seems to be incorrect.</strong></p>\n"
+        . '<p>You need to install Yii framework via composer or adjust the framework path in file <abbr title="' . __FILE__ . '">' . basename(__FILE__) . "</abbr>.</p>\n"
+        . '<p>Please refer to the <abbr title="' . dirname(__FILE__) . "/README.md\">README</abbr> on how to install Yii.</p>\n";
 
     if (!empty($_SERVER['argv'])) {
         // do not print HTML when used in console mode
@@ -42,7 +42,7 @@ if (!isset($frameworkPath) || !is_dir($frameworkPath)) {
     exit(1);
 }
 
-require_once $frameworkPath.'/requirements/YiiRequirementChecker.php';
+require_once $frameworkPath . '/requirements/YiiRequirementChecker.php';
 $requirementsChecker = new YiiRequirementChecker();
 
 $gdMemo = $imagickMemo = 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required for image CAPTCHA.';

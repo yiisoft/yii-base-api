@@ -2,7 +2,7 @@
 
 return [
     'app' => [
-        'basePath' => dirname(__DIR__).'/src',
+        'basePath' => dirname(__DIR__) . '/src',
         /*
         'controllerMap' => [
             'fixture' => [ // Fixture generation command line.
