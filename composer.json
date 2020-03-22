@@ -28,7 +28,7 @@
         "yiisoft/cache": "^3.0@dev",
         "yiisoft/active-record": "^3.0@dev",
         "vlucas/phpdotenv": "^2.5",
-        "hiqdev/composer-config-plugin": "^1.0@dev"
+        "yiisoft/composer-config-plugin": "^1.0@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4"
