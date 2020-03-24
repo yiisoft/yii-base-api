@@ -27,7 +27,7 @@
         "yiisoft/log": "^3.0@dev",
         "yiisoft/cache": "^3.0@dev",
         "yiisoft/active-record": "^3.0@dev",
-        "vlucas/phpdotenv": "^2.5",
+        "vlucas/phpdotenv": "^2.5 || ^4.0",
         "yiisoft/composer-config-plugin": "^1.0@dev"
     },
     "require-dev": {
