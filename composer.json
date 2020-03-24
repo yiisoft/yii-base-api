@@ -31,7 +31,7 @@
         "yiisoft/composer-config-plugin": "^1.0@dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.4 || ^9.0"
+        "phpunit/phpunit": "^9.0"
     },
     "extra": {
         "branch-alias": {
